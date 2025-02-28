@@ -1,11 +1,8 @@
-import java.util.Scanner;
-
 public class FindAge{
 	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
-		int year = sc.nextInt();
+		int birthYear = 2000;
 		int currentYear = 2024;
-		int age = currentYear - year;
+		int age = currentYear - birthYear;
 		System.out.print("Harry's age in 2024 is " + age);
 	}
 }
